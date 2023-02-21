@@ -261,6 +261,8 @@ input[type="submit"] {
 .card {
   background-color: var(--white);
   width: 330px;
+  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+
 }
 
 .image {
