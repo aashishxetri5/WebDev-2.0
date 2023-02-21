@@ -91,7 +91,14 @@ footer {
   font-size: 15px;
   font-weight: bold;
   color: var(--black);
+  cursor: pointer;
 }
+
+.nav-item:last-child > button:hover {
+  background-color: #ffbc12;
+  transition: .3s linear;
+}
+
 
 .left {
   margin-left: -150px;
@@ -118,6 +125,11 @@ footer {
 .img-list > img {
   width: 7.6%;
   margin-right: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+.img-list > img:hover {
+  transform: scale(1.1);
 }
 
 .right-details {
